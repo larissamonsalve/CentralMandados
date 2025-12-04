@@ -1,0 +1,76 @@
+############################
+# MAVEN
+############################
+
+# Diretório de build do Maven
+target/
+
+# Arquivos de segurança do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+############################
+# JAVA
+############################
+
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos de teste gerados
+hs_err_pid*
+replay_pid*
+
+
+############################
+# NETBEANS
+############################
+
+nbproject/private/
+nbbuild/
+dist/
+build/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+
+############################
+# IDEA / IntelliJ
+############################
+
+*.iml
+.idea/
+out/
+
+
+############################
+# VSCode
+############################
+
+.vscode/
+
+
+############################
+# SISTEMAS OPERACIONAIS
+############################
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
